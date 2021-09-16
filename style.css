@@ -1,0 +1,50 @@
+
+body {
+  background-image: linear-gradient(180deg, rgba(255, 217, 0, 0) , rgba(255, 217, 0, 1));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(25, 22, 170);
+  font-size: 1.35rem;
+}
+
+p {
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.block {
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  width: min(70%, 750px);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+}
+
+.recipe {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+#contents {
+  margin-top: 2rem;
+  height:auto;
+  border: 1px solid black;
+  text-align: left;
+  border-radius: 10px;
+  background-color: rgba(255, 217, 0, 0.5);
+}
